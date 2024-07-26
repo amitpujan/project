@@ -1,0 +1,233 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 10px;
+    height: 50px;
+    width: 70px;
+
+}
+.title{ 
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 236, 237);
+    width:100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+/* css of menu */
+.head_container {
+     /* position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            border-bottom: 1px solid black;
+            z-index: 1000; */
+            height: 50px;
+            padding: 10px 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.head h3:first-child {
+    flex: 0 1 80%;
+}
+
+.head h3:nth-child(2),
+.head h3:nth-child(3) {
+    flex: 0 1 auto;
+    margin-left: 20px;
+}
+
+.head h3 {
+    white-space: nowrap;
+}
+
+.head h3:nth-child(2) {
+    margin-left: auto;
+}
+
+.head h3:nth-child(3) {
+    margin-left: 20px;
+}
+.head a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu_container{
+    height: 90vh;
+    /* padding: 20px; */
+    border: 1px solid black;
+    display: flex;
+    border-bottom: none;
+}
+.menu
+{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(13, 153, 223);
+    border: 2px solid rgb(26, 80, 62) ;
+    align-items: center;
+    margin-right: 10px;
+    
+    /* position: fixed;
+    top: 50px; 
+    left: 0;
+    width: 20%;
+    height: calc(100vh - 50px); 
+    background-color: rgb(72, 211, 165);
+    border: 2px solid rgb(26, 80, 62);
+    z-index: 1000;
+    overflow-y: auto; */
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu a:hover{
+    color:rgb(26, 80, 62);
+    background-color: azure;
+}   
+
+/* css of form */
+body{
+    height: 20px;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+.ok{
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+}
+.ok input{
+    width: 100%;
+    margin-left:0%;
+    background-color: #f4f4f4;
+    height: 50px;
+    border-radius:40px;
+    padding: 20px;
+}
+
+/* css of enter.php */
+
+  .success_message_box {
+     border: 2px solid green;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightgreen;
+    
+    }
+        
+
+
+/* css of displayitems */
+/* .table_show_container{
+    background-color: black;
+}
+.table_show{
+    background-color: black;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+} */
+table_show {
+    width: 100%;
+    background-color: #ffffff; /* Change as needed */
+    border-collapse: collapse;
+    border: 1px solid #dddddd; /* Change border color as needed */
+    font-family: Arial, sans-serif; /* Change font as needed */
+}
+
+.table_show th, .table_show td {
+    border: 1px solid #dddddd; 
+    padding: 8px;
+    text-align: left;
+}
+
+.table_show th {
+    background-color: #f2f2f2; 
+}
+
+.table_show tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table_show tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table_show_container {
+    margin-top: 20px; 
+    padding: 20px;
+}
+.image-container{
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* css of viewitems.php */
+
+
+/* css of edititem.php */
+
+body{
+    height: 20px;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+.edititem-ok{
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    clear: both;
+}
+.edititem-ok input{
+    width: 100%;
+    margin-left:0%;
+    background-color: #f4f4f4;
+    height: 50px;
+    border-radius:40px;
+    padding: 20px;
+}
+.edititem-main-container{
+    display: flex;
+    width: 100px;
+}
+.edititem-title{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 236, 237);
+    width:100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    
+}
